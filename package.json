@@ -1,0 +1,16 @@
+{
+  "name": "baccarat-predictor",
+  "version": "1.0.0",
+  "description": "Stake.com Baccarat predictor Argentina",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.12.1",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
