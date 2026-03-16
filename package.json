@@ -4,13 +4,17 @@
   "description": "Stake.com Baccarat predictor Argentina",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "puppeteer": "^22.12.1",
     "express": "^4.19.2"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
+  },
+  "puppeteer": {
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
   }
 }
